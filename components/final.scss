@@ -1,0 +1,37 @@
+#final{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #948C75;
+    color: black;
+    height: 80vh;
+
+    h2{
+    font-size: 9vw;
+    }
+
+    button{
+    font-size: 5vw;
+    }
+}
+
+footer{
+    background-color: rgb(230,230,230);
+
+
+    p{
+    margin: 0;
+    padding: 12px;
+    color: rgb(100,100,100);
+    }
+
+    .container{
+    background-color:#D9CEB2 ;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    }
+}
