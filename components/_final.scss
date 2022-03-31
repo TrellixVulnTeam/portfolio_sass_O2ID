@@ -1,12 +1,14 @@
+@import "../base/mixins";
+@import "../base/maps";
 #final{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-color: #948C75;
-    color: black;
-    height: 80vh;
+    background-color:map-get($final, bg_final);
+    color: map-get($final, color_final );
+    height: map-get($final, height_final);
 
     h2{
     font-size: 9vw;
@@ -22,9 +24,7 @@ footer{
 
 
     p{
-    margin: 0;
-    padding: 12px;
-    color: rgb(100,100,100);
+    @include texto_footer(0, 12px, rgb(100,100,100) )
     }
 
     .container{

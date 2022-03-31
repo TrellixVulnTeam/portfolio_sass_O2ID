@@ -1,0 +1,5 @@
+@mixin texto_footer($margen, $padding, $color) {
+    margin: $margen;
+    padding: $padding;
+    color: $color;
+}

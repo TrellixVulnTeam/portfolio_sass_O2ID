@@ -58,6 +58,12 @@ button:hover {
   color: #99B2B7;
 }
 
+header .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 header {
   background-color: whitesmoke;
 }
@@ -67,11 +73,6 @@ header .logo {
   font-weight: bold;
   color: blueviolet;
   font-size: 1.6em;
-}
-header .container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 header nav {
   display: flex;
@@ -326,6 +327,11 @@ footer .container {
   #caracteristicas {
     background-position-x: calc(100vw - 800px);
   }
+}
+header .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 /*# sourceMappingURL=main.css.map */
